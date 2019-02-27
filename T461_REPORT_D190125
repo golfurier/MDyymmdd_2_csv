@@ -1,0 +1,1059 @@
+5200190125133133P                                                                                                                    
+1SWCHD363                                                MASTERCARD DEBIT SWITCH                                                     
+                                                           DAILY CONTROL REPORT                                    WORK OF: 01/25/19 
+                                                           ACQUIRING PROCESSOR                                           PAGE:    1  
+  PROCESSOR          : GOVERNMENT SAVINGS BANK                                                                                       
+  PROCESSOR ID       : 9000002352                                                                                                    
+  CURRENCY           : 840   U.S. Dollar                                                                                             
+  SETTLEMENT ICA     : 018710                                                                                                        
+0 DESCRIPTION             TRANSACTIONS            FINANCIAL    ---------------------------- INTERCHANGE ---------------------------- 
+                        NUMBER     NUMBER           AMOUNT     --------------- COUNTS ----------------  --------- AMOUNT  ---------- 
+                       APPROVED   DENIALS            TRANS     FINANCIAL   % BASED    NONFIN   NONBILL                               
+0 CIRRUS                                                                                                                             
+    CASH WD SAV               8         4           1,259.90           8         0         4         0                7.00    CR     
+    CASH WD DDA               2         0             234.57           2         0         0         0                1.50    CR     
+    CASH ADV CCD              4         3             469.14           4         0         0         3                3.00    CR     
+    CASH WD NAS              13         7           3,621.45          13         0         4         3               10.75    CR     
+    BALANCE INQ               5         3               0.00           0         0         8         0                2.00    CR     
+    -------------------------------------------------------------------------------------------------------------------------------- 
+        SUBTOTALS            32        17           5,585.06          27         0        16         6               24.25    CR     
+0   EXCEPTION ITEMS           2         0             518.34DB         2         0         0         0                1.00           
+    -------------------------------------------------------------------------------------------------------------------------------- 
+        TOTALS               34        17           5,066.72CR        29         0        16         6               23.25    CR     
+0 MASTERCARD                                                                                                                         
+    CASH WD NAS               2         1             644.46           2         0         1         0                1.75    CR     
+    -------------------------------------------------------------------------------------------------------------------------------- 
+        TOTALS                2         1             644.46CR         2         0         1         0                1.75    CR     
+0 MAESTRO ATM                                                                                                                        
+    CASH WD SAV               2        10             171.51           2         0        10         0                4.00    CR     
+    CASH WD DDA               4         8             699.32           4         0         8         0                5.00    CR     
+    CASH WD NAS               6        42           1,208.21           6         0        42         0               15.00    CR     
+    BALANCE INQ               3         3               0.00           0         0         6         0                1.25    CR     
+    -------------------------------------------------------------------------------------------------------------------------------- 
+        TOTALS               15        63           2,079.04CR        12         0        66         0               25.25    CR     
+0 GRAND TOTALS:                                                                                                                      
+    CASH WD SAV              10        14           1,431.41          10         0        14         0               11.00    CR     
+    CASH WD DDA               6         8             933.89           6         0         8         0                6.50    CR     
+    CASH ADV CCD              4         3             469.14           4         0         0         3                3.00    CR     
+    CASH WD NAS              21        50           5,474.12          21         0        47         3               27.50    CR     
+    BALANCE INQ               8         6               0.00           0         0        14         0                3.25    CR     
+    -------------------------------------------------------------------------------------------------------------------------------- 
+        SUBTOTALS            49        81           8,308.56          41         0        83         6               51.25    CR     
+0   EXCEPTION ITEMS           2         0             518.34DB         2         0         0         0                1.00           
+    -------------------------------------------------------------------------------------------------------------------------------- 
+        TOTALS               51        81           7,790.22CR        43         0        83         6               50.25    CR     
+1SWCHD363                                                MASTERCARD DEBIT SWITCH                                                     
+                                                           DAILY CONTROL REPORT                                    WORK OF: 01/25/19 
+                                                           ACQUIRING PROCESSOR                                           PAGE:    2  
+  PROCESSOR          : GOVERNMENT SAVINGS BANK                                                                                       
+  PROCESSOR ID       : 9000002352                                                                                                    
+  CURRENCY           : 840   U.S. Dollar                                                                                             
+  SETTLEMENT ICA     : 018710                                                                                                        
+0 DESCRIPTION                                DEBITS                                 CREDITS                                          
+                                     NUMBER           AMOUNT                NUMBER           AMOUNT                                  
+  FINANCIAL                                                                                                                          
+    SETTLEMENT                            0                0.00                 41            8,308.56                               
+0 EXCEPTION ITEMS                                                                                                                    
+    SAME DAY (CODE 09)                    2              518.34                  0                0.00                               
+    NON-SAME DAY                          0                0.00                  0                0.00                               
+0   SETTLEMENT                            2              518.34                  0                0.00                               
+0   NON-SAME DAY,NON-FINANCIAL            0                                      0                                                   
+0 TOTAL FINANCIAL SETTLEMENT                                                                  7,790.22                               
+0 TOTAL FEES                                                                                                                         
+    SETTLEMENT                                             1.00                                  51.25                               
+0 INTERCHANGE                                                                                                                        
+    SETTLEMENT                                                                                7,840.47                               
+- ACCESS CHARGE(ATM SURCHRG)              0                0.00                 41              284.54                               
+- ACCESS CHARGE(POS SURCHRG)              0                0.00                  0                0.00                               
+- ACCESS CHARGE(ATM SUR) REV              0                0.00                  2               13.88                               
+- ACCESS CHARGE(POS SUR) REV              0                0.00                  0                0.00                               
+0 SURCHARGE FREE                          0                                                                                          
+1SWCHD363                                                MASTERCARD DEBIT SWITCH                                                     
+                                                           DAILY CONTROL REPORT                                    WORK OF: 01/25/19 
+                                                             ISSUING PROCESSOR                                           PAGE:    3  
+  PROCESSOR          : GOVERNMENT SAVINGS BANK                                                                                       
+  PROCESSOR ID       : 9000002352                                                                                                    
+  CURRENCY           : 840   U.S. Dollar                                                                                             
+  SETTLEMENT ICA     : 018710                                                                                                        
+0 DESCRIPTION                                DEBITS                                 CREDITS                                          
+                                     NUMBER           AMOUNT                NUMBER           AMOUNT                                  
+  FINANCIAL                                                                                                                          
+    SETTLEMENT                            0                0.00                  0                0.00                               
+0 EXCEPTION ITEMS                                                                                                                    
+    SAME DAY (CODE 09)                    0                0.00                  0                0.00                               
+    NON-SAME DAY                          0                0.00                  0                0.00                               
+0   SETTLEMENT                            0                0.00                  0                0.00                               
+0   NON-SAME DAY,NON-FINANCIAL            0                                      0                                                   
+0 TOTAL FINANCIAL SETTLEMENT                               0.00                                                                      
+0 TOTAL FEES                                                                                                                         
+    SETTLEMENT                                             0.00                                   0.00                               
+0 INTERCHANGE                                                                                                                        
+    SETTLEMENT                                             0.00                                                                      
+- ACCESS CHARGE(ATM SURCHRG)              0                0.00                  0                0.00                               
+- ACCESS CHARGE(POS SURCHRG)              0                0.00                  0                0.00                               
+- ACCESS CHARGE(ATM SUR) REV              0                0.00                  0                0.00                               
+- ACCESS CHARGE(POS SUR) REV              0                0.00                  0                0.00                               
+0 TOTAL CCA                                                0.00                                   0.00                               
+0 TOTAL ICCR                                               0.00                                   0.00                               
+0 SURCHARGE FREE                          0                                                                                          
+1SWCHD363                                                MASTERCARD DEBIT SWITCH                                                     
+                                                           DAILY CONTROL REPORT                                    WORK OF: 01/25/19 
+                                                           NET SETTLEMENT SUMMARY                                        PAGE:    4  
+  PROCESSOR          : GOVERNMENT SAVINGS BANK                                                                                       
+  PROCESSOR ID       : 9000002352                                                                                                    
+  CURRENCY           : 840   U.S. Dollar                                                                                             
+  SETTLEMENT ICA     : 018710                                                                                                        
+- ACQUIRER SETTLEMENT SUMMARY                  DEBIT                         CREDIT                         NET                      
+0   TRANSACTIONS                                0.00                       8,308.56                    8,308.56      CR              
+0   EXCEPTION ITEMS                           518.34                           0.00                      518.34                      
+0   INTERCHANGE FEES                            1.00                          51.25                       50.25      CR              
+0 TOTAL ACQUIRER                              519.34                       8,359.81                    7,840.47      CR              
+- ISSUER SETTLEMENT SUMMARY                    DEBIT                         CREDIT                         NET                      
+0   TRANSACTIONS                                0.00                           0.00                        0.00                      
+0   EXCEPTION ITEMS                             0.00                           0.00                        0.00                      
+0   INTERCHANGE FEES                            0.00                           0.00                        0.00                      
+0 TOTAL ISSUER                                  0.00                           0.00                        0.00                      
+0 NET SETTLEMENT TOTAL   SSC : 000                                                                     7,840.47      CR              
+0 NET SETTLEMENT (ACH)                                                                                                               
+- NET SETTLEMENT (GCMS)            NETACQ             FEEACQ             NETISS             FEEISS                                   
+0        ICA: 018710              7,790.22CR            50.25CR              0.00                0.00                                
+1SWCHD412                                              MASTERCARD DEBIT SWITCH                                                       
+                                                       DAILY INTERCHANGE REPORT                                    WORK OF: 01/25/19 
+                                                         ACQUIRING PROCESSOR                                          PAGE:        1 
+                                                                                                                                     
+ PROCESSOR          : GOVERNMENT SAVINGS BANK                                                                                        
+ PROCESSOR ID       : 9000002352                                                                                                     
+ CURRENCY           : 840   U.S. DOLLAR                                                                                              
+ SETTLEMENT ICA     : 018710                                                                                                         
+                                                                                                                                     
+ FEE DESCRIPTION                                                  COUNTS                                      AMOUNTS                
+ ------------------------------------------   ----------------------------------------------- ------------------ ------------------- 
+      FIN         PCT        NONFIN           FINANCIAL    % BASED   NONFINANCIAL   NONBILL         DEBIT               CREDIT       
+                    MIN            MAX                                                                                               
+ CI ATM INTERNATIONAL                                                                                                                
+       .300000D   .6000D       .250000D                0           0          16           6           0.00                4.00      
+                     .000000        .000000                                                                                          
+                                                                                                                                     
+ CI ATM INTL ATM ACCESS FEE                                                                                                          
+       .750000D   .0000        .250000D               27           0           0           0           0.00               20.25      
+                     .000000        .000000                                                                                          
+                                                                                                                                     
+ ----------------------------------------------------------------------------------------------------------------------------------- 
+   CIRRUS                          SUBTOTAL           27           0          16           6           0.00               24.25      
+   CIRRUS                     EXCEPTN ITEMS            2           0           0           0           1.00                0.00      
+ ----------------------------------------------------------------------------------------------------------------------------------- 
+   CIRRUS                             TOTAL           29           0          16           6           1.00               24.25      
+                                                                                                                                     
+ MC ATM INTERNATIONAL                                                                                                                
+       .300000D   .6000D       .250000D                0           0           1           0           0.00                0.25      
+                     .000000        .000000                                                                                          
+                                                                                                                                     
+ MC ATM INTL ATM ACCESS FEE                                                                                                          
+       .750000D   .0000        .250000D                2           0           0           0           0.00                1.50      
+                     .000000        .000000                                                                                          
+                                                                                                                                     
+ ----------------------------------------------------------------------------------------------------------------------------------- 
+   MASTERCARD                      SUBTOTAL            2           0           1           0           0.00                1.75      
+   MASTERCARD                 EXCEPTN ITEMS            0           0           0           0           0.00                0.00      
+ ----------------------------------------------------------------------------------------------------------------------------------- 
+   MASTERCARD                         TOTAL            2           0           1           0           0.00                1.75      
+                                                                                                                                     
+ MS ATM INTERNATIONAL                                                                                                                
+       .300000D   .6000D       .250000D                0           0          65           0           0.00               16.25      
+                     .000000        .000000                                                                                          
+                                                                                                                                     
+ MS ATM INTL ATM ACCESS FEE                                                                                                          
+       .750000D   .0000        .250000D               12           0           0           0           0.00                9.00      
+                     .000000        .000000                                                                                          
+                                                                                                                                     
+ MS ATM INTL - EUROPE NON-FINANCIAL                                                                                                  
+       .000000    .0000        .000000                 0           0           1           0           0.00                0.00      
+                     .000000        .000000                                                                                          
+                                                                                                                                     
+1SWCHD412                                              MASTERCARD DEBIT SWITCH                                                       
+                                                       DAILY INTERCHANGE REPORT                                    WORK OF: 01/25/19 
+                                                         ACQUIRING PROCESSOR                                          PAGE:        2 
+                                                                                                                                     
+ PROCESSOR          : GOVERNMENT SAVINGS BANK                                                                                        
+ PROCESSOR ID       : 9000002352                                                                                                     
+ CURRENCY           : 840   U.S. DOLLAR                                                                                              
+ SETTLEMENT ICA     : 018710                                                                                                         
+                                                                                                                                     
+ FEE DESCRIPTION                                                  COUNTS                                      AMOUNTS                
+ ------------------------------------------   ----------------------------------------------- ------------------ ------------------- 
+      FIN         PCT        NONFIN           FINANCIAL    % BASED   NONFINANCIAL   NONBILL         DEBIT               CREDIT       
+                    MIN            MAX                                                                                               
+ ----------------------------------------------------------------------------------------------------------------------------------- 
+   MAESTRO ATM                     SUBTOTAL           12           0          66           0           0.00               25.25      
+   MAESTRO ATM                EXCEPTN ITEMS            0           0           0           0           0.00                0.00      
+ ----------------------------------------------------------------------------------------------------------------------------------- 
+   MAESTRO ATM                        TOTAL           12           0          66           0           0.00               25.25      
+                                                                                                                                     
+ ----------------------------------------------------------------------------------------------------------------------------------- 
+                             ACQUIRER TOTAL           43           0          83           6           1.00               51.25      
+1SWCHD412                                              MASTERCARD DEBIT SWITCH                                                       
+                                                       DAILY INTERCHANGE REPORT                                    WORK OF: 01/25/19 
+                                                          ISSUING PROCESSOR                                           PAGE:        3 
+                                                                                                                                     
+ PROCESSOR          : GOVERNMENT SAVINGS BANK                                                                                        
+ PROCESSOR ID       : 9000002352                                                                                                     
+ CURRENCY           : 840   U.S. DOLLAR                                                                                              
+ SETTLEMENT ICA     : 018710                                                                                                         
+                                                                                                                                     
+ FEE DESCRIPTION                                                  COUNTS                                      AMOUNTS                
+ ------------------------------------------   ----------------------------------------------- ------------------ ------------------- 
+      FIN         PCT        NONFIN           FINANCIAL    % BASED   NONFINANCIAL   NONBILL         DEBIT               CREDIT       
+                    MIN            MAX                                                                                               
+ ----------------------------------------------------------------------------------------------------------------------------------- 
+                               ISSUER TOTAL            0           0           0           0           0.00                0.00      
+1SWCHD412                                              MASTERCARD DEBIT SWITCH                                                       
+                                                       DAILY INTERCHANGE REPORT                                    WORK OF: 01/25/19 
+                                                       NET INTERCHANGE SUMMARY                                        PAGE:        4 
+                                                                                                                                     
+ PROCESSOR          : GOVERNMENT SAVINGS BANK                                                                                        
+ PROCESSOR ID       : 9000002352                                                                                                     
+ CURRENCY           : 840   U.S. DOLLAR                                                                                              
+ SETTLEMENT ICA     : 018710                                                                                                         
+                                                                                                                                     
+                                                                                                                                     
+                                                                                                                                     
+ ACQUIRER SUMMARY                      COUNTS                                                  AMOUNTS                               
+ ---------------- ---------------------------------------------------    ----------------------------------------------------------- 
+                       FINANCIAL      % BASED NONFINANCIAL      NONBILL              DEBIT              CREDIT                  NET  
+                                                                                                                                     
+ ATM TRANSACTIONS           43            0           83            6                 1.00                51.25               50.25CR
+                                                                                                                                     
+ POS TRANSACTIONS            0            0            0            0                 0.00                 0.00                0.00  
+                                                                                                                                     
+                                                                                                                                     
+ ----------------------------------------------------------------------------------------------------------------------------------- 
+ TOTAL                      43            0           83            6                 1.00                51.25               50.25CR
+                                                                                                                                     
+                                                                                                                                     
+                                                                                                                                     
+ ISSUER SUMMARY                        COUNTS                                                  AMOUNTS                               
+ ---------------- ---------------------------------------------------    ----------------------------------------------------------- 
+                       FINANCIAL      % BASED NONFINANCIAL      NONBILL              DEBIT              CREDIT                  NET  
+                                                                                                                                     
+ ATM TRANSACTIONS            0            0            0            0                 0.00                 0.00                0.00  
+                                                                                                                                     
+ POS TRANSACTIONS            0            0            0            0                 0.00                 0.00                0.00  
+                                                                                                                                     
+                                                                                                                                     
+ ----------------------------------------------------------------------------------------------------------------------------------- 
+ TOTAL                       0            0            0            0                 0.00                 0.00                0.00  
+                                                                                                                                     
+                                                                                                                                     
+                                                                                                                                     
+                                                                                                                                     
+                                          NET INTERCHANGE SETTLEMENT   SSC : 000                                             50.25CR 
+1SWCHD61                                   M A S T E R C A R D    D E B I T    S W I T C H                                           
+      REPORT  3                           D A I L Y    P R O C E S S I N G    S U M M A R Y                         WORK OF 01/25/19 
+                                               A C Q U I R I N G    P R O C E S S O R                                    PAGE    1   
+                                                                                                                                     
+          PROCESSOR   : GOVERNMENT SAVINGS BANK   ----------  D E B I T  ----------                                                  
+          PROCESSOR ID: 9000002352                                                                                                   
+                                                                                                                                     
+                                                                                                                                     
+                                  ADVICE  RESPONSE      TRANS      % OF            STAND IN     % OF              TOTAL      % OF    
+              DESCRIPTION         REASON    CODE        COUNT     TOTAL              COUNT     TOTAL              COUNT     TOTAL    
+                                                                                                                                     
+     TRANSACTION APPROVED                 (00,10,85,87)                                                                              
+        NORMAL                                             34     28.81                  0      0.00                 34     28.81    
+        BALANCE                                             6      5.08                  0      0.00                  6      5.08    
+                                                                                                                                     
+     TRANSACTION APPROVED SUBTOTAL                         40     33.90                  0      0.00                 40     33.90    
+                                                                                                                                     
+     TRANSACTION NOT APPROVED                                                                                                        
+                                                                                                                                     
+     DO NOT HONOR                            05            41     34.75                  0      0.00                 41     34.75    
+     INVALID TRANSACTION                     12             2      1.69                  0      0.00                  2      1.69    
+     INSUFFICIENT FUNDS                      51             5      4.24                  0      0.00                  5      4.24    
+     EXPIRED CARD                            54             1      0.85                  0      0.00                  1      0.85    
+     INVALID PIN,ALLOW CUSTOMER RETRY        55             2      1.69                  0      0.00                  2      1.69    
+     TRANSACTION NOT PERM. TO ISS OR ACQ     57            15     12.71                  0      0.00                 15     12.71    
+     TRANSACTION NOT PERM. TO ISS OR ACQ  (S)57             1      0.85                  0      0.00                  1      0.85    
+     TRANSACTION NOT PERM. TO ACQ OR ISS     58             6      5.08                  0      0.00                  6      5.08    
+     EXCEEDS WITHDRAWAL LIMIT                61             4      3.39                  0      0.00                  4      3.39    
+     UNKNOWN RESPONSE CODE                                  1      0.85                  0      0.00                  1      0.85    
+                                                                                                                                     
+     TRANSACTION NOT APPROVED SUBTOTAL                     78     66.10                  0      0.00                 78     66.10    
+                                                                                                                                     
+                                                                                                                                     
+                                                                                                                                     
+             T O T A L                                    118    100.00                  0      0.00                118    100.00    
+                                                                                                                                     
+                                                                                                                                     
+                          DEBIT FAIL %                   0.00                                                                        
+                                                                                                                                     
+         MASTERCARD DEBIT TRANSACTIONS                      0                                                                        
+1SWCHD61                                   M A S T E R C A R D    D E B I T    S W I T C H                                           
+      REPORT  3                           D A I L Y    P R O C E S S I N G    S U M M A R Y                         WORK OF 01/25/19 
+                                               A C Q U I R I N G    P R O C E S S O R                                    PAGE    2   
+                                                                                                                                     
+          PROCESSOR   : GOVERNMENT SAVINGS BANK   ---------  C R E D I T  ---------                                                  
+          PROCESSOR ID: 9000002352                                                                                                   
+                                                                                                                                     
+                                                                                                                                     
+                                  ADVICE  RESPONSE      TRANS      % OF            STAND IN     % OF              TOTAL      % OF    
+              DESCRIPTION         REASON    CODE        COUNT     TOTAL              COUNT     TOTAL              COUNT     TOTAL    
+                                                                                                                                     
+     TRANSACTION APPROVED                 (00,10,85,87)                                                                              
+        NORMAL                                              7     58.33                  0      0.00                  7     58.33    
+        BALANCE                                             2     16.67                  0      0.00                  2     16.67    
+                                                                                                                                     
+     TRANSACTION APPROVED SUBTOTAL                          9     75.00                  0      0.00                  9     75.00    
+                                                                                                                                     
+     TRANSACTION NOT APPROVED                                                                                                        
+                                                                                                                                     
+     INVALID DOLLAR AMOUNT                   13             2     16.67                  0      0.00                  2     16.67    
+     INSUFFICIENT FUNDS                      51             1      8.33                  0      0.00                  1      8.33    
+                                                                                                                                     
+     TRANSACTION NOT APPROVED SUBTOTAL                      3     25.00                  0      0.00                  3     25.00    
+                                                                                                                                     
+                                                                                                                                     
+                                                                                                                                     
+             T O T A L                                     12    100.00                  0      0.00                 12    100.00    
+                                                                                                                                     
+                                                                                                                                     
+             T O T A L    DEBIT/CREDIT                    130                            0                          130              
+                                                                                                                                     
+                         CREDIT FAIL %                   0.00                                                                        
+                   DEBIT/CREDIT FAIL %                   0.00                                                                        
+                                                                                                                                     
+         MASTERCARD DEBIT TRANSACTIONS                      0                                                                        
+1SWCHD61                                   M A S T E R C A R D    D E B I T    S W I T C H                                           
+      REPORT  3                           D A I L Y    P R O C E S S I N G    S U M M A R Y                         WORK OF 01/25/19 
+                                                 I S S U I N G      P R O C E S S O R                                    PAGE    3   
+                                                                                                                                     
+          PROCESSOR   : GOVERNMENT SAVINGS BANK   ----------  D E B I T  ----------                                                  
+          PROCESSOR ID: 9000002352                                                                                                   
+                                                                                                                                     
+                                                                                                                                     
+                                  ADVICE  RESPONSE      TRANS      % OF            STAND IN     % OF              TOTAL      % OF    
+              DESCRIPTION         REASON    CODE        COUNT     TOTAL              COUNT     TOTAL              COUNT     TOTAL    
+                                                                                                                                     
+     TRANSACTION APPROVED                 (00,10,85,87)                                                                              
+     TRANSACTION NOT APPROVED                                                                                                        
+                                                                                                                                     
+                                                                                                                                     
+                                                                                                                                     
+             T O T A L                                      0      0.00                  0      0.00                  0      0.00    
+                                                                                                                                     
+                                                                                                                                     
+                          DEBIT FAIL %                   0.00                                                                        
+                                                                                                                                     
+          SYSTEM DENIAL RATE FINANCIAL                   0.00                                                                        
+                                                                                                                                     
+         MASTERCARD DEBIT TRANSACTIONS                      0                                                                        
+1SWCHD61                                   M A S T E R C A R D    D E B I T    S W I T C H                                           
+      REPORT  3                           D A I L Y    P R O C E S S I N G    S U M M A R Y                         WORK OF 01/25/19 
+                                                 I S S U I N G      P R O C E S S O R                                    PAGE    4   
+                                                                                                                                     
+          PROCESSOR   : GOVERNMENT SAVINGS BANK   ---------  C R E D I T  ---------                                                  
+          PROCESSOR ID: 9000002352                                                                                                   
+                                                                                                                                     
+                                                                                                                                     
+                                  ADVICE  RESPONSE      TRANS      % OF            STAND IN     % OF              TOTAL      % OF    
+              DESCRIPTION         REASON    CODE        COUNT     TOTAL              COUNT     TOTAL              COUNT     TOTAL    
+                                                                                                                                     
+     TRANSACTION APPROVED                 (00,10,85,87)                                                                              
+     TRANSACTION NOT APPROVED                                                                                                        
+                                                                                                                                     
+                                                                                                                                     
+                                                                                                                                     
+             T O T A L                                      0      0.00                  0      0.00                  0      0.00    
+                                                                                                                                     
+                                                                                                                                     
+             T O T A L    DEBIT/CREDIT                      0                            0                            0              
+                                                                                                                                     
+                         CREDIT FAIL %                   0.00                                                                        
+                   DEBIT/CREDIT FAIL %                   0.00                                                                        
+                                                                                                                                     
+          SYSTEM DENIAL RATE FINANCIAL                   0.00                                                                        
+                                                                                                                                     
+         MASTERCARD DEBIT TRANSACTIONS                      0                                                                        
+1SWCHM06                                   M A S T E R C A R D    D E B I T    S W I T C H                                           
+      REPORT  3                        MONTH-TO-DATE      P R O C E S S I N G    S U M M A R Y                      WORK OF 01/25/19 
+                                                  M O N T H   O F   J A N U A R Y                                                    
+                                               A C Q U I R I N G    P R O C E S S O R                                    PAGE 5337   
+                                                                                                                                     
+          PROCESSOR   : GOVERNMENT SAVINGS BANK   ----------  D E B I T  ----------                                                  
+          PROCESSOR ID: 9000002352                                                                                                   
+                                                                                                                                     
+                                                                                                                                     
+                                  ADVICE  RESPONSE      TRANS      % OF            STAND IN     % OF              TOTAL      % OF    
+              DESCRIPTION         REASON    CODE        COUNT     TOTAL              COUNT     TOTAL              COUNT     TOTAL    
+                                                                                                                                     
+     TRANSACTION APPROVED                 (00,10,85,87)                                                                              
+        NORMAL                                            317     28.98                  0      0.00                317     28.98    
+        BALANCE                                            36      3.29                  0      0.00                 36      3.29    
+                                                                                                                                     
+     TRANSACTION APPROVED SUBTOTAL                        353     32.27                  0      0.00                353     32.27    
+                                                                                                                                     
+     TRANSACTION NOT APPROVED                                                                                                        
+                                                                                                                                     
+     DO NOT HONOR                            05           353     32.27                  0      0.00                353     32.27    
+     INVALID TRANSACTION                     12            43      3.93                  0      0.00                 43      3.93    
+     INVALID TRANSACTION FINANCIAL        (S)12             4      0.37                  0      0.00                  4      0.37    
+     INVALID CARDHOLDER NUMBER               14             3      0.27                  0      0.00                  3      0.27    
+     FORMAT ERROR                            30             1      0.09                  0      0.00                  1      0.09    
+     FORMAT ERROR                         (S)30             6      0.55                  0      0.00                  6      0.55    
+     INSUFFICIENT FUNDS                      51            41      3.75                  0      0.00                 41      3.75    
+     EXPIRED CARD                            54             2      0.18                  0      0.00                  2      0.18    
+     INVALID PIN,ALLOW CUSTOMER RETRY        55            17      1.55                  0      0.00                 17      1.55    
+     TRANSACTION NOT PERM. TO ISS OR ACQ     57           180     16.45                  0      0.00                180     16.45    
+     TRANSACTION NOT PERM. TO ISS OR ACQ  (S)57             1      0.09                  0      0.00                  1      0.09    
+     TRANSACTION NOT PERM. TO ACQ OR ISS     58            53      4.84                  0      0.00                 53      4.84    
+     EXCEEDS WITHDRAWAL LIMIT                61            28      2.56                  0      0.00                 28      2.56    
+     RESTRICTED CARD                         62             4      0.37                  0      0.00                  4      0.37    
+     CONTACT CARD ISSUER                     70             1      0.09                  0      0.00                  1      0.09    
+     ALLOWABLE NUMBER OF PIN TRIES EXCEED    75             2      0.18                  0      0.00                  2      0.18    
+     INVALID ACCOUNT SPECIFIED               78             1      0.09                  0      0.00                  1      0.09    
+     UNKNOWN RESPONSE CODE                                  1      0.09                  0      0.00                  1      0.09    
+                                                                                                                                     
+     TRANSACTION NOT APPROVED SUBTOTAL                    741     67.73                  0      0.00                741     67.73    
+                                                                                                                                     
+                                                                                                                                     
+                                                                                                                                     
+             T O T A L                                  1,094    100.00                  0      0.00              1,094    100.00    
+                                                                                                                                     
+                                                                                                                                     
+                          DEBIT FAIL %                   0.54                                                                        
+         MASTERCARD DEBIT TRANSACTIONS                      0                                                                        
+1SWCHM06                                   M A S T E R C A R D    D E B I T    S W I T C H                                           
+      REPORT  3                        MONTH-TO-DATE      P R O C E S S I N G    S U M M A R Y                      WORK OF 01/25/19 
+                                                  M O N T H   O F   J A N U A R Y                                                    
+                                               A C Q U I R I N G    P R O C E S S O R                                    PAGE 5338   
+                                                                                                                                     
+          PROCESSOR   : GOVERNMENT SAVINGS BANK   ---------  C R E D I T  ---------                                                  
+          PROCESSOR ID: 9000002352                                                                                                   
+                                                                                                                                     
+                                                                                                                                     
+                                  ADVICE  RESPONSE      TRANS      % OF            STAND IN     % OF              TOTAL      % OF    
+              DESCRIPTION         REASON    CODE        COUNT     TOTAL              COUNT     TOTAL              COUNT     TOTAL    
+                                                                                                                                     
+     TRANSACTION APPROVED                 (00,10,85,87)                                                                              
+        NORMAL                                             70     44.30                  0      0.00                 70     44.30    
+        BALANCE                                             3      1.90                  0      0.00                  3      1.90    
+                                                                                                                                     
+     TRANSACTION APPROVED SUBTOTAL                         73     46.20                  0      0.00                 73     46.20    
+                                                                                                                                     
+     TRANSACTION NOT APPROVED                                                                                                        
+                                                                                                                                     
+     CAPTURE CARD                            04             4      2.53                  0      0.00                  4      2.53    
+     DO NOT HONOR                            05             1      0.63                  0      0.00                  1      0.63    
+     INVALID TRANSACTION                     12             5      3.16                  0      0.00                  5      3.16    
+     INVALID TRANSACTION NON FINANCIAL    (S)12             9      5.70                  0      0.00                  9      5.70    
+     INVALID DOLLAR AMOUNT                   13            21     13.29                  0      0.00                 21     13.29    
+     INSUFFICIENT FUNDS                      51             5      3.16                  0      0.00                  5      3.16    
+     INVALID PIN,ALLOW CUSTOMER RETRY        55            17     10.76                  0      0.00                 17     10.76    
+     TRANSACTION NOT PERM. TO ISS OR ACQ     57            15      9.49                  0      0.00                 15      9.49    
+     EXCEEDS WITHDRAWAL LIMIT                61             4      2.53                  0      0.00                  4      2.53    
+     ALLOWABLE NUMBER OF PIN TRIES EXCEED    75             4      2.53                  0      0.00                  4      2.53    
+                                                                                                                                     
+     TRANSACTION NOT APPROVED SUBTOTAL                     85     53.80                  0      0.00                 85     53.80    
+                                                                                                                                     
+                                                                                                                                     
+                                                                                                                                     
+             T O T A L                                    158    100.00                  0      0.00                158    100.00    
+                                                                                                                                     
+                                                                                                                                     
+             T O T A L    DEBIT/CREDIT                  1,252                            0                        1,252              
+                                                                                                                                     
+                         CREDIT FAIL %                   0.00                                                                        
+                   DEBIT/CREDIT FAIL %                   0.47                                                                        
+                                                                                                                                     
+         MASTERCARD DEBIT TRANSACTIONS                      0                                                                        
+1SWCHM06                                   M A S T E R C A R D    D E B I T    S W I T C H                                           
+      REPORT  3                        MONTH-TO-DATE      P R O C E S S I N G    S U M M A R Y                      WORK OF 01/25/19 
+                                                  M O N T H   O F   J A N U A R Y                                                    
+                                                 I S S U I N G      P R O C E S S O R                                    PAGE 5339   
+                                                                                                                                     
+          PROCESSOR   : GOVERNMENT SAVINGS BANK   ----------  D E B I T  ----------                                                  
+          PROCESSOR ID: 9000002352                                                                                                   
+                                                                                                                                     
+                                                                                                                                     
+                                  ADVICE  RESPONSE      TRANS      % OF            STAND IN     % OF              TOTAL      % OF    
+              DESCRIPTION         REASON    CODE        COUNT     TOTAL              COUNT     TOTAL              COUNT     TOTAL    
+                                                                                                                                     
+     TRANSACTION APPROVED                 (00,10,85,87)                                                                              
+     TRANSACTION NOT APPROVED                                                                                                        
+                                                                                                                                     
+                                                                                                                                     
+                                                                                                                                     
+             T O T A L                                      0      0.00                  0      0.00                  0      0.00    
+                                                                                                                                     
+                                                                                                                                     
+                          DEBIT FAIL %                   0.00                                                                        
+               DISCOUNTED DEBIT FAIL %                   0.00                                                                        
+                                                                                                                                     
+                                                                                                                                     
+            DEBIT SYSTEM DENIAL RATE FINANCIAL           0.00                                                                        
+         MASTERCARD DEBIT TRANSACTIONS                      0                                                                        
+1SWCHM06                                   M A S T E R C A R D    D E B I T    S W I T C H                                           
+      REPORT  3                        MONTH-TO-DATE      P R O C E S S I N G    S U M M A R Y                      WORK OF 01/25/19 
+                                                  M O N T H   O F   J A N U A R Y                                                    
+                                                 I S S U I N G      P R O C E S S O R                                    PAGE 5340   
+                                                                                                                                     
+          PROCESSOR   : GOVERNMENT SAVINGS BANK   ---------  C R E D I T  ---------                                                  
+          PROCESSOR ID: 9000002352                                                                                                   
+                                                                                                                                     
+                                                                                                                                     
+                                  ADVICE  RESPONSE      TRANS      % OF            STAND IN     % OF              TOTAL      % OF    
+              DESCRIPTION         REASON    CODE        COUNT     TOTAL              COUNT     TOTAL              COUNT     TOTAL    
+                                                                                                                                     
+     TRANSACTION APPROVED                 (00,10,85,87)                                                                              
+     TRANSACTION NOT APPROVED                                                                                                        
+                                                                                                                                     
+                                                                                                                                     
+                                                                                                                                     
+             T O T A L                                      0      0.00                  0      0.00                  0      0.00    
+                                                                                                                                     
+                                                                                                                                     
+             T O T A L    DEBIT/CREDIT                      0                            0                            0              
+                                                                                                                                     
+                         CREDIT FAIL %                   0.00                                                                        
+                   DEBIT/CREDIT FAIL %                   0.00                                                                        
+                                                                                                                                     
+              DISCOUNTED CREDIT FAIL %                   0.00                                                                        
+        DISCOUNTED DEBIT/CREDIT FAIL %                   0.00                                                                        
+                                                                                                                                     
+           CREDIT SYSTEM DENIAL RATE FINANCIAL           0.00                                                                        
+     DEBIT/CREDIT SYSTEM DENIAL RATE FINANCIAL           0.00                                                                        
+                                                                                                                                     
+         MASTERCARD DEBIT TRANSACTIONS                      0                                                                        
+1SWCHM07                                     M A S T E R C A R D   D E B I T   S W I T C H                                           
+                                         MONTH-TO-DATE     D E N I A L   S U M M A R Y   R E P O R T    SETTLEMENT DATE:    01/25/19 
+                                                 M O N T H   O F   J A N U A R Y                                           PAGE 1254 
+                                                           I S S U E R                                                               
+0         PROCESSOR   : GOVERNMENT SAVINGS BANK                                                                                      
+          PROCESSOR ID: 9000002352                                                                                                   
+0                                                 -------- DEBIT -------        -------- CREDIT ------        -------- TOTAL ------- 
+0                                                     NUMBER     PERCENT            NUMBER     PERCENT            NUMBER     PERCENT 
+                                                                                                                                     
+   ISSUER PROCESSOR TIMEOUTS (S91)                         0        0.00                 0        0.00                 0        0.00 
+   ISSUER PROCESSOR INOPERATIVE (S91)                      0        0.00                 0        0.00                 0        0.00 
+                                                                                                                                     
+        TOTAL ISSUER FAILURES                              0        0.00                 0        0.00                 0        0.00 
+                                                                                                                                     
+ * FORMAT ERRORS (S30,30,92)                               0        0.00                 0        0.00                 0        0.00 
+ * ACQUIRER PROCESSOR INOPERATIVE (S80)                    0        0.00                 0        0.00                 0        0.00 
+                                                                                                                                     
+      * TOTAL ACQUIRER PROCESSOR FAILURES                  0        0.00                 0        0.00                 0        0.00 
+                                                                                                                                     
+              TOTAL FAILURES                               0        0.00                 0        0.00                 0        0.00 
+                                                                                                                                     
+                                                                                                                                     
+   ISSUER UNAVAILABLE INQUIRY (S91,91)                     0        0.00                 0        0.00                 0        0.00 
+   ISSUER UNAVAILABLE FINANCIAL (91)                       0        0.00                 0        0.00                 0        0.00 
+   ISSUER UNABLE TO PROCESS INQUIRY (96)                   0        0.00                 0        0.00                 0        0.00 
+   ISSUER UNABLE TO PROCESS FINANCIAL(96)                  0        0.00                 0        0.00                 0        0.00 
+                                                                                                                                     
+       TOTAL ISSUER SYSTEMIC DENIALS                       0        0.00                 0        0.00                 0        0.00 
+                                                                                                                                     
+   INVALID TRANS SELECTION (S12,12,57,58)                  0        0.00                 0        0.00                 0        0.00 
+   INVALID AMOUNT (13,S13)                                 0        0.00                 0        0.00                 0        0.00 
+   EXCEEDS WITHDRAWAL LIMIT (61,65)                        0        0.00                 0        0.00                 0        0.00 
+   INVALID PIN (55,63,75)                                  0        0.00                 0        0.00                 0        0.00 
+   CONTACT CARD ISSUER (70)                                0        0.00                 0        0.00                 0        0.00 
+   PIN NOT CHANGED (71)                                    0        0.00                 0        0.00                 0        0.00 
+   UNACCEPTABLE PIN - RETRY (89)                           0        0.00                 0        0.00                 0        0.00 
+   INVALID ACCOUNT SELECTION(14,15,76,77,78)               0        0.00                 0        0.00                 0        0.00 
+   STATUSED ACCOUNT (41,43,62,04)                          0        0.00                 0        0.00                 0        0.00 
+   EXPIRED CARD (54)                                       0        0.00                 0        0.00                 0        0.00 
+   INSUFFICIENT FUNDS (51)                                 0        0.00                 0        0.00                 0             
+   INVALID INTERCHANGE                                     0        0.00                 0        0.00                 0        0.00 
+   DO NOT HONOR (01,05)                                    0        0.00                 0        0.00                 0        0.00 
+                                                                                                                                     
+        TOTAL ISSUER POLICY DENIALS                        0        0.00                 0        0.00                 0        0.00 
+                                                                                                                                     
+             TOTAL DENIALS                                 0        0.00                 0        0.00                 0        0.00 
+                                                                                                                                     
+                  TOTAL DECLINES                           0        0.00                 0        0.00                 0        0.00 
+                                                                                                                                     
+                                                                                                                                     
+  FINANCIAL TRANSACTIONS APPROVED (00,10,87)               0        0.00                 0        0.00                 0        0.00 
+   INQUIRY TRANSACTIONS APPROVED (00)                      0        0.00                 0        0.00                 0        0.00 
+   AVS/EC CERTIFICATE AUTH APPROVAL (85)                   0        0.00                 0        0.00                 0        0.00 
+                                                                                                                                     
+              TOTAL APPROVED TRANSACTIONS                  0        0.00                 0        0.00                 0        0.00 
+                                                                                                                                     
+                                                                                                                                     
+                       TOTAL TRANSACTIONS                  0        0.00                 0        0.00                 0        0.00 
+                                                                                                                                     
+         * FAILURES ENCOUNTERED BY OTHER CIRRUS TERMINAL PROCESSORS                                                                  
+1SWCHM03                                     M A S T E R C A R D  D E B I T  S W I T C H                           WORK OF 01/25/19  
+                                             T R A N S A C T I O N   I N T E R C H A N G E                              PAGE      1  
+                                            M O N T H  -  T O  -  D A T E   F O R :   J A N U A R Y                                  
+          PROCESSOR   : GOVERNMENT SAVINGS BANK                                                                                      
+          PROCESSOR ID: 9000002352                                                                                                   
+                                              TRANSACTION  SUMMARY  AS  ACQUIRING  PROCESSOR                                         
+0                                                                                        MASTERCARD    PRIVATE                       
+                             MASTERCARD      CIRRUS       PLUS       VISA      MAESTRO     DEBIT        LABEL       OTHER     TOTAL  
+                            ________________________________________________________________________________________________________ 
+09000000002 REDBANC                                                                                                                  
+   DENIED                         0           0           0           0           1           0           0           0           1  
+ TOTAL                            0           0           0           0           1           0           0           0           1  
+09000000018 BANK OF MONTREAL                                                                                                         
+   CASH WD DDA                    0           2           0           0           0           0           0           0           2  
+   CASH WD NAS                    0           4           0           0           0           0           0           0           4  
+   DENIED                         0           0           0           0           1           0           0           0           1  
+ TOTAL                            0           6           0           0           1           0           0           0           7  
+09000000025 FIS                                                                                                                      
+   CASH WD DDA                    0           0           0           0           1           0           0           0           1  
+   CASH WD NAS                    0           1           0           0           2           0           0           0           3  
+   BALANCE INQ                    0           1           0           0           0           0           0           0           1  
+   DENIED                         0           0           0           0           2           0           0           0           2  
+ TOTAL                            0           2           0           0           5           0           0           0           7  
+09000000026 MAY BANK                                                                                                                 
+   CASH WD NAS                    0           1           0           0           0           0           0           0           1  
+   DENIED                         0           4           0           0           0           0           0           0           4  
+ TOTAL                            0           5           0           0           0           0           0           0           5  
+09000000032 SHAZAM                                                                                                                   
+   CASH WD DDA                    0           1           0           0           1           0           0           0           2  
+ TOTAL                            0           1           0           0           1           0           0           0           2  
+09000000039 VANTIV                                                                                                                   
+   CASH WD DDA                    0           0           0           0           1           0           0           0           1  
+   CASH WD NAS                    0           0           0           0           2           0           0           0           2  
+   DENIED                         0           0           0           0           1           0           0           0           1  
+ TOTAL                            0           0           0           0           4           0           0           0           4  
+09000000043 STAR NORTHEAST                                                                                                           
+   CASH WD SAV                    0           0           0           0           1           0           0           0           1  
+   CASH WD DDA                    0           0           0           0           5           0           0           0           5  
+   CASH WD NAS                    0           3           0           0           8           0           0           0          11  
+   BALANCE INQ                    0           0           0           0           1           0           0           0           1  
+   DENIED                         0           2           0           0          12           0           0           0          14  
+ TOTAL                            0           5           0           0          27           0           0           0          32  
+09000000051 NATIONAL BANK OF CANADA                                                                                                  
+   DENIED                         0           0           0           0           3           0           0           0           3  
+ TOTAL                            0           0           0           0           3           0           0           0           3  
+09000000053 FIRST DATA RESOURCES                                                                                                     
+1SWCHM03                                     M A S T E R C A R D  D E B I T  S W I T C H                           WORK OF 01/25/19  
+                                             T R A N S A C T I O N   I N T E R C H A N G E                              PAGE      2  
+                                            M O N T H  -  T O  -  D A T E   F O R :   J A N U A R Y                                  
+          PROCESSOR   : GOVERNMENT SAVINGS BANK                                                                                      
+          PROCESSOR ID: 9000002352                                                                                                   
+                                              TRANSACTION  SUMMARY  AS  ACQUIRING  PROCESSOR                                         
+0                                                                                        MASTERCARD    PRIVATE                       
+                             MASTERCARD      CIRRUS       PLUS       VISA      MAESTRO     DEBIT        LABEL       OTHER     TOTAL  
+                            ________________________________________________________________________________________________________ 
+   CASH ADV CCD                   0           1           0           0           0           0           0           0           1  
+   CASH WD NAS                    0           1           0           0           0           0           0           0           1  
+   DENIED                         0          17           0           0           0           0           0           0          17  
+ TOTAL                            0          19           0           0           0           0           0           0          19  
+09000000057 TOTAL SYSTEMS                                                                                                            
+   CASH ADV CCD                   0           5           0           0           0           0           0           0           5  
+   CASH WD NAS                    0          10           0           0           0           0           0           0          10  
+   DENIED                         0           5           0           0           0           0           0           0           5  
+ TOTAL                            0          20           0           0           0           0           0           0          20  
+09000000059 DC CARD                                                                                                                  
+   CASH WD NAS                    0           1           0           0           0           0           0           0           1  
+   DENIED                         0           1           0           0           0           0           0           0           1  
+ TOTAL                            0           2           0           0           0           0           0           0           2  
+09000000067 BC CARD CO                                                                                                               
+   CASH WD NAS                    0           0           0           0           1           0           0           0           1  
+ TOTAL                            0           0           0           0           1           0           0           0           1  
+09000000072 FISERV CNS                                                                                                               
+   CASH WD DDA                    0           0           0           0           2           0           0           0           2  
+   DENIED                         0           0           0           0           2           0           0           0           2  
+ TOTAL                            0           0           0           0           4           0           0           0           4  
+09000000074 CIMB BANK BERHAD                                                                                                         
+   CASH WD SAV                    0           8           0           0           0           0           0           0           8  
+   CASH WD DDA                    0           1           0           0           0           0           0           0           1  
+   CASH ADV CCD                   0           1           0           0           0           0           0           0           1  
+   CASH WD NAS                    0           9           0           0           0           0           0           0           9  
+   BALANCE INQ                    0           5           0           0           0           0           0           0           5  
+   DENIED                         0          26           0           0           0           0           0           0          26  
+ TOTAL                            0          50           0           0           0           0           0           0          50  
+09000000094 FIRST DATA CONO SUR                                                                                                      
+   CASH WD NAS                    0           3           0           0           0           0           0           0           3  
+   DENIED                         0           1           0           0           0           0           0           0           1  
+ TOTAL                            0           4           0           0           0           0           0           0           4  
+09000000098 FISERV CNS                                                                                                               
+   CASH WD NAS                    0           1           0           0           0           0           0           0           1  
+ TOTAL                            0           1           0           0           0           0           0           0           1  
+09000000130 CITISHARE                                                                                                                
+   CASH WD NAS                    0           0           0           0           6           0           0           0           6  
+1SWCHM03                                     M A S T E R C A R D  D E B I T  S W I T C H                           WORK OF 01/25/19  
+                                             T R A N S A C T I O N   I N T E R C H A N G E                              PAGE      3  
+                                            M O N T H  -  T O  -  D A T E   F O R :   J A N U A R Y                                  
+          PROCESSOR   : GOVERNMENT SAVINGS BANK                                                                                      
+          PROCESSOR ID: 9000002352                                                                                                   
+                                              TRANSACTION  SUMMARY  AS  ACQUIRING  PROCESSOR                                         
+0                                                                                        MASTERCARD    PRIVATE                       
+                             MASTERCARD      CIRRUS       PLUS       VISA      MAESTRO     DEBIT        LABEL       OTHER     TOTAL  
+                            ________________________________________________________________________________________________________ 
+   DENIED                         0           0           0           0           1           0           0           0           1  
+ TOTAL                            0           0           0           0           7           0           0           0           7  
+09000000133 LATIN AMERICA / PE                                                                                                       
+   DENIED                         0           2           0           0           0           0           0           0           2  
+ TOTAL                            0           2           0           0           0           0           0           0           2  
+09000000135 BRAZIL PE                                                                                                                
+   CASH WD SAV                    0           2           0           0           0           0           0           0           2  
+   CASH ADV CCD                   0           1           0           0           0           0           0           0           1  
+   CASH WD NAS                    0           1           0           0           0           0           0           0           1  
+   DENIED                         0           1           0           0           0           0           0           0           1  
+ TOTAL                            0           5           0           0           0           0           0           0           5  
+09000000136 ASIA PACIFIC / PE                                                                                                        
+   CASH WD SAV                    0          11           0           0           0           0           0           0          11  
+   CASH WD DDA                    0           2           0           0           0           0           0           0           2  
+   CASH ADV CCD                   0           3           0           0           0           0           0           0           3  
+   CASH WD NAS                    3           9           0           0           0           0           0           0          12  
+   BALANCE INQ                    0           6           0           0           0           0           0           0           6  
+   DENIED                         2          20           0           0           0           0           0           0          22  
+ TOTAL                            5          51           0           0           0           0           0           0          56  
+09000000139 MIDDLE EAST/AFRICA / PE                                                                                                  
+   CASH WD SAV                    0           2           0           0           0           0           0           0           2  
+   CASH ADV CCD                   0           1           0           0           0           0           0           0           1  
+   CASH WD NAS                    0           2           0           0           0           0           0           0           2  
+ TOTAL                            0           5           0           0           0           0           0           0           5  
+09000000153 PULSE EFT ASSOCIATION                                                                                                    
+   CASH WD NAS                    0           1           0           0           0           0           0           0           1  
+   DENIED                         0           1           0           0           0           0           0           0           1  
+ TOTAL                            0           2           0           0           0           0           0           0           2  
+09000000162 BANCO NACIONAL ULTRAMARIN                                                                                                
+   CASH WD SAV                    0           1           0           0           0           0           0           0           1  
+ TOTAL                            0           1           0           0           0           0           0           0           1  
+09000000171 FIS - INTERCEPT                                                                                                          
+   CASH WD NAS                    0           1           0           0           4           0           0           0           5  
+ TOTAL                            0           1           0           0           4           0           0           0           5  
+09000000187 DBS                                                                                                                      
+   CASH WD SAV                    0           0           0           0           4           0           0           0           4  
+   CASH WD NAS                    0           1           0           0           6           0           0           0           7  
+1SWCHM03                                     M A S T E R C A R D  D E B I T  S W I T C H                           WORK OF 01/25/19  
+                                             T R A N S A C T I O N   I N T E R C H A N G E                              PAGE      4  
+                                            M O N T H  -  T O  -  D A T E   F O R :   J A N U A R Y                                  
+          PROCESSOR   : GOVERNMENT SAVINGS BANK                                                                                      
+          PROCESSOR ID: 9000002352                                                                                                   
+                                              TRANSACTION  SUMMARY  AS  ACQUIRING  PROCESSOR                                         
+0                                                                                        MASTERCARD    PRIVATE                       
+                             MASTERCARD      CIRRUS       PLUS       VISA      MAESTRO     DEBIT        LABEL       OTHER     TOTAL  
+                            ________________________________________________________________________________________________________ 
+   BALANCE INQ                    0           0           0           0           2           0           0           0           2  
+   DENIED                         0           0           0           0           8           0           0           0           8  
+ TOTAL                            0           1           0           0          20           0           0           0          21  
+09000000193 US BANK                                                                                                                  
+   CASH WD NAS                    0           0           0           0           1           0           0           0           1  
+   BALANCE INQ                    0           0           0           0           1           0           0           0           1  
+ TOTAL                            0           0           0           0           2           0           0           0           2  
+09000000288 CSCBANK SAL                                                                                                              
+   CASH WD NAS                    0           1           0           0           0           0           0           0           1  
+ TOTAL                            0           1           0           0           0           0           0           0           1  
+09000000293 CLAVE TELERED                                                                                                            
+   DENIED                         0           1           0           0           0           0           0           0           1  
+ TOTAL                            0           1           0           0           0           0           0           0           1  
+09000000304 PT BANK NEGARA INDONESIA                                                                                                 
+   CASH WD SAV                    0           0           0           0           1           0           0           0           1  
+   CASH WD NAS                    0           0           0           0           2           0           0           0           2  
+   DENIED                         0           0           0           0           1           0           0           0           1  
+ TOTAL                            0           0           0           0           4           0           0           0           4  
+09000000312 AHLI UNITED BANK                                                                                                         
+   CASH WD NAS                    0           1           0           0           0           0           0           0           1  
+ TOTAL                            0           1           0           0           0           0           0           0           1  
+09000000350 BANCO SANTANDER                                                                                                          
+   CASH WD NAS                    0           0           0           0           1           0           0           0           1  
+ TOTAL                            0           0           0           0           1           0           0           0           1  
+09000000362 BANK CENTRAL ASIA                                                                                                        
+   CASH WD SAV                    0           4           0           0           0           0           0           0           4  
+   CASH WD NAS                    0           8           0           0           0           0           0           0           8  
+   BALANCE INQ                    0           1           0           0           0           0           0           0           1  
+   DENIED                         0           8           0           0           0           0           0           0           8  
+ TOTAL                            0          21           0           0           0           0           0           0          21  
+09000000382 KOREA EXCHANGE BANK                                                                                                      
+   CASH WD SAV                    0           1           0           0           0           0           0           0           1  
+   CASH WD NAS                    0           2           0           0           0           0           0           0           2  
+   DENIED                         0           5           0           0           0           0           0           0           5  
+ TOTAL                            0           8           0           0           0           0           0           0           8  
+09000000387 IPS - PIN BASE                                                                                                           
+1SWCHM03                                     M A S T E R C A R D  D E B I T  S W I T C H                           WORK OF 01/25/19  
+                                             T R A N S A C T I O N   I N T E R C H A N G E                              PAGE      5  
+                                            M O N T H  -  T O  -  D A T E   F O R :   J A N U A R Y                                  
+          PROCESSOR   : GOVERNMENT SAVINGS BANK                                                                                      
+          PROCESSOR ID: 9000002352                                                                                                   
+                                              TRANSACTION  SUMMARY  AS  ACQUIRING  PROCESSOR                                         
+0                                                                                        MASTERCARD    PRIVATE                       
+                             MASTERCARD      CIRRUS       PLUS       VISA      MAESTRO     DEBIT        LABEL       OTHER     TOTAL  
+                            ________________________________________________________________________________________________________ 
+   DENIED                         0           0           0           0           2           0           0           0           2  
+ TOTAL                            0           0           0           0           2           0           0           0           2  
+09000000389 BANK SINOPAC                                                                                                             
+   CASH WD NAS                    0           1           0           0           0           0           0           0           1  
+ TOTAL                            0           1           0           0           0           0           0           0           1  
+09000000395 COMMERCIAL INTERNATIONAL                                                                                                 
+   CASH WD NAS                    0           1           0           0           0           0           0           0           1  
+ TOTAL                            0           1           0           0           0           0           0           0           1  
+09000000422 EVERLINK                                                                                                                 
+   DENIED                         0           0           0           0           7           0           0           0           7  
+ TOTAL                            0           0           0           0           7           0           0           0           7  
+09000000509 CITISHARE                                                                                                                
+   CASH WD SAV                    0           3           0           0           0           0           0           0           3  
+   CASH WD DDA                    0           0           0           0           1           0           0           0           1  
+   CASH WD NAS                    0           5           0           0           1           0           0           0           6  
+   BALANCE INQ                    0           1           0           0           0           0           0           0           1  
+   DENIED                         0           6           0           0           0           0           0           0           6  
+ TOTAL                            0          15           0           0           2           0           0           0          17  
+09000000510 CO-OP NETWORK                                                                                                            
+   CASH WD DDA                    0           2           0           0           3           0           0           0           5  
+   CASH WD NAS                    0           1           0           0           4           0           0           0           5  
+   DENIED                         0           0           0           0           5           0           0           0           5  
+ TOTAL                            0           3           0           0          12           0           0           0          15  
+09000000522 CITISHARE                                                                                                                
+   CASH WD DDA                    0           0           0           0           4           0           0           0           4  
+   CASH WD NAS                    0           0           0           0           4           0           0           0           4  
+ TOTAL                            0           0           0           0           8           0           0           0           8  
+09000000531 NYCE CORPORATION                                                                                                         
+   CASH WD SAV                    0           1           0           0           0           0           0           0           1  
+   CASH ADV CCD                   0          13           0           0           0           0           0           0          13  
+   CASH WD NAS                    0           5           0           0           0           0           0           0           5  
+   DENIED                         0          57           0           0           0           0           0           0          57  
+ TOTAL                            0          76           0           0           0           0           0           0          76  
+09000000564 PT BANK RAKYAT INDONESIA                                                                                                 
+   CASH WD SAV                    0           0           0           0           1           0           0           0           1  
+   CASH WD NAS                    0           0           0           0           4           0           0           0           4  
+ TOTAL                            0           0           0           0           5           0           0           0           5  
+1SWCHM03                                     M A S T E R C A R D  D E B I T  S W I T C H                           WORK OF 01/25/19  
+                                             T R A N S A C T I O N   I N T E R C H A N G E                              PAGE      6  
+                                            M O N T H  -  T O  -  D A T E   F O R :   J A N U A R Y                                  
+          PROCESSOR   : GOVERNMENT SAVINGS BANK                                                                                      
+          PROCESSOR ID: 9000002352                                                                                                   
+                                              TRANSACTION  SUMMARY  AS  ACQUIRING  PROCESSOR                                         
+0                                                                                        MASTERCARD    PRIVATE                       
+                             MASTERCARD      CIRRUS       PLUS       VISA      MAESTRO     DEBIT        LABEL       OTHER     TOTAL  
+                            ________________________________________________________________________________________________________ 
+09000000566 JAMMU & KASHMIR BANK LTD                                                                                                 
+   DENIED                         0           1           0           0           0           0           0           0           1  
+ TOTAL                            0           1           0           0           0           0           0           0           1  
+09000000572 STATE BANK OF INDIA                                                                                                      
+   CASH WD SAV                    0           0           0           0           2           0           0           0           2  
+   CASH WD NAS                    0           0           0           0           2           0           0           0           2  
+   BALANCE INQ                    0           0           0           0           1           0           0           0           1  
+   DENIED                         0           0           0           0           1           0           0           0           1  
+ TOTAL                            0           0           0           0           6           0           0           0           6  
+09000000577 GALILEO PROCESSING INC                                                                                                   
+   BALANCE INQ                    0           0           0           0           1           0           0           0           1  
+ TOTAL                            0           0           0           0           1           0           0           0           1  
+09000000606 MONERIS                                                                                                                  
+   DENIED                         0           9           0           0           0           0           0           0           9  
+ TOTAL                            0           9           0           0           0           0           0           0           9  
+09000000642 BANCO DE ORO UNIVERSAL                                                                                                   
+   BALANCE INQ                    0           0           0           0           2           0           0           0           2  
+ TOTAL                            0           0           0           0           2           0           0           0           2  
+09000000724 HSBC                                                                                                                     
+   DENIED                         0           0           0           0           1           0           0           0           1  
+ TOTAL                            0           0           0           0           1           0           0           0           1  
+09000000742 ICICI BANK                                                                                                               
+   CASH WD SAV                    0           5           0           0           0           0           0           0           5  
+   CASH WD NAS                    0           1           0           0           0           0           0           0           1  
+   BALANCE INQ                    0           1           0           0           0           0           0           0           1  
+   DENIED                         0           2           0           0           0           0           0           0           2  
+ TOTAL                            0           9           0           0           0           0           0           0           9  
+09000000764 MASTERCARD EUROPE                                                                                                        
+   CASH WD SAV                    1           0           0           0           0           0           0           0           1  
+   CASH WD DDA                    1           0           0           0           0           0           0           0           1  
+   CASH ADV CCD                   2           1           0           0           0           0           0           0           3  
+   CASH WD NAS                    4           0           0           0           1           0           0           0           5  
+   DENIED                         0           6           0           0         548           0           0           0         554  
+ TOTAL                            8           7           0           0         549           0           0           0         564  
+09000000844 BANK OF AMERICA NA                                                                                                       
+   CASH WD DDA                    0           0           0           0           1           0           0           0           1  
+1SWCHM03                                     M A S T E R C A R D  D E B I T  S W I T C H                           WORK OF 01/25/19  
+                                             T R A N S A C T I O N   I N T E R C H A N G E                              PAGE      7  
+                                            M O N T H  -  T O  -  D A T E   F O R :   J A N U A R Y                                  
+          PROCESSOR   : GOVERNMENT SAVINGS BANK                                                                                      
+          PROCESSOR ID: 9000002352                                                                                                   
+                                              TRANSACTION  SUMMARY  AS  ACQUIRING  PROCESSOR                                         
+0                                                                                        MASTERCARD    PRIVATE                       
+                             MASTERCARD      CIRRUS       PLUS       VISA      MAESTRO     DEBIT        LABEL       OTHER     TOTAL  
+                            ________________________________________________________________________________________________________ 
+   CASH WD NAS                    0           0           0           0           6           0           0           0           6  
+   BALANCE INQ                    0           0           0           0           1           0           0           0           1  
+   DENIED                         0           0           0           0           4           0           0           0           4  
+ TOTAL                            0           0           0           0          12           0           0           0          12  
+09000000847 BANK OF AMERICA NA                                                                                                       
+   CASH WD NAS                    0           1           0           0           0           0           0           0           1  
+   DENIED                         0           5           0           0           0           0           0           0           5  
+ TOTAL                            0           6           0           0           0           0           0           0           6  
+09000000908 BANKWEST                                                                                                                 
+   CASH ADV CCD                   0           3           0           0           0           0           0           0           3  
+   CASH WD NAS                    0           1           0           0           0           0           0           0           1  
+   DENIED                         0           1           0           0           0           0           0           0           1  
+ TOTAL                            0           5           0           0           0           0           0           0           5  
+09000000910 WESTPAC BANKING CORP                                                                                                     
+   CASH WD SAV                    0           1           0           0           0           0           0           0           1  
+   CASH WD DDA                    0           6           0           0           0           0           0           0           6  
+   CASH WD NAS                    0          19           0           0           0           0           0           0          19  
+   BALANCE INQ                    0           2           0           0           0           0           0           0           2  
+   DENIED                         0           4           0           0           0           0           0           0           4  
+ TOTAL                            0          32           0           0           0           0           0           0          32  
+09000000914 ANZ NATIONAL ATM ACQ-ISS                                                                                                 
+   CASH WD SAV                    0           0           0           0           1           0           0           0           1  
+ TOTAL                            0           0           0           0           1           0           0           0           1  
+09000000918 ANZ AUS ATM LINK                                                                                                         
+   CASH WD NAS                    0           0           0           0           6           0           0           0           6  
+ TOTAL                            0           0           0           0           6           0           0           0           6  
+09000000929 IPS-PREPAID                                                                                                              
+   CASH WD SAV                    0           4           0           0           0           0           0           0           4  
+   CASH WD DDA                    0           2           0           0           0           0           0           0           2  
+   CASH WD NAS                    0          23           0           0           0           0           0           0          23  
+   BALANCE INQ                    0           5           0           0           0           0           0           0           5  
+   DENIED                         0          11           0           0           0           0           0           0          11  
+ TOTAL                            0          45           0           0           0           0           0           0          45  
+09000000935 UNITED BANK LIMITED                                                                                                      
+   DENIED                         0           1           0           0           0           0           0           0           1  
+ TOTAL                            0           1           0           0           0           0           0           0           1  
+09000001089 DRUK PNB                                                                                                                 
+1SWCHM03                                     M A S T E R C A R D  D E B I T  S W I T C H                           WORK OF 01/25/19  
+                                             T R A N S A C T I O N   I N T E R C H A N G E                              PAGE      8  
+                                            M O N T H  -  T O  -  D A T E   F O R :   J A N U A R Y                                  
+          PROCESSOR   : GOVERNMENT SAVINGS BANK                                                                                      
+          PROCESSOR ID: 9000002352                                                                                                   
+                                              TRANSACTION  SUMMARY  AS  ACQUIRING  PROCESSOR                                         
+0                                                                                        MASTERCARD    PRIVATE                       
+                             MASTERCARD      CIRRUS       PLUS       VISA      MAESTRO     DEBIT        LABEL       OTHER     TOTAL  
+                            ________________________________________________________________________________________________________ 
+   DENIED                         0           0           0           0           2           0           0           0           2  
+ TOTAL                            0           0           0           0           2           0           0           0           2  
+09000001096 FIRST DATA CONO SUR                                                                                                      
+   BALANCE INQ                    0           1           0           0           0           0           0           0           1  
+ TOTAL                            0           1           0           0           0           0           0           0           1  
+09000001126 WESTPAC NZ DEBIT                                                                                                         
+   CASH WD NAS                    0           3           0           0           0           0           0           0           3  
+ TOTAL                            0           3           0           0           0           0           0           0           3  
+09000001134 FIS - BCFS                                                                                                               
+   CASH WD NAS                    0           0           0           0           4           0           0           0           4  
+   DENIED                         0           3           0           0           1           0           0           0           4  
+ TOTAL                            0           3           0           0           5           0           0           0           8  
+09000001180 HSBC SINGAPORE                                                                                                           
+   CASH WD NAS                    0           1           0           0           0           0           0           0           1  
+ TOTAL                            0           1           0           0           0           0           0           0           1  
+09000001186 KOOKMIN CARD                                                                                                             
+   CASH WD NAS                    0           0           0           0           1           0           0           0           1  
+ TOTAL                            0           0           0           0           1           0           0           0           1  
+09000001195 CATHAY UNITED BANK                                                                                                       
+   CASH WD SAV                    0           2           0           0           0           0           0           0           2  
+   REVERSAL                       0           2           0           0           0           0           0           0           2  
+   DENIED                         0           1           0           0           0           0           0           0           1  
+ TOTAL                            0           5           0           0           0           0           0           0           5  
+09000001248 CBA DEBIT LINK                                                                                                           
+   CASH WD SAV                    0           1           0           0          14           0           0           0          15  
+   CASH ADV CCD                   0           1           0           0           2           0           0           0           3  
+   CASH WD NAS                    0           1           0           0          23           0           0           0          24  
+   BALANCE INQ                    0           0           0           0           6           0           0           0           6  
+   DENIED                         0           0           0           0          13           0           0           0          13  
+ TOTAL                            0           3           0           0          58           0           0           0          61  
+09000001294 NONGHYUP BANK                                                                                                            
+   CASH ADV CCD                   0           1           0           0           0           0           0           0           1  
+   CASH WD NAS                    0           2           0           0           0           0           0           0           2  
+   DENIED                         0           1           0           0           0           0           0           0           1  
+ TOTAL                            0           4           0           0           0           0           0           0           4  
+09000001346 WARBA BANK                                                                                                               
+1SWCHM03                                     M A S T E R C A R D  D E B I T  S W I T C H                           WORK OF 01/25/19  
+                                             T R A N S A C T I O N   I N T E R C H A N G E                              PAGE      9  
+                                            M O N T H  -  T O  -  D A T E   F O R :   J A N U A R Y                                  
+          PROCESSOR   : GOVERNMENT SAVINGS BANK                                                                                      
+          PROCESSOR ID: 9000002352                                                                                                   
+                                              TRANSACTION  SUMMARY  AS  ACQUIRING  PROCESSOR                                         
+0                                                                                        MASTERCARD    PRIVATE                       
+                             MASTERCARD      CIRRUS       PLUS       VISA      MAESTRO     DEBIT        LABEL       OTHER     TOTAL  
+                            ________________________________________________________________________________________________________ 
+   DENIED                         0           1           0           0           0           0           0           0           1  
+ TOTAL                            0           1           0           0           0           0           0           0           1  
+09000001467 IPS_PIN BASE BLADE_1                                                                                                     
+   CASH WD DDA                    0           0           0           0           1           0           0           0           1  
+   DENIED                         0           0           0           0           1           0           0           0           1  
+ TOTAL                            0           0           0           0           2           0           0           0           2  
+09000001471 IPS-PREPAID_BLADE 2                                                                                                      
+   CASH WD NAS                    0           0           0           0           2           0           0           0           2  
+ TOTAL                            0           0           0           0           2           0           0           0           2  
+09000001587 VISA DPS                                                                                                                 
+   CASH WD DDA                    0           0           0           0           1           0           0           0           1  
+   BALANCE INQ                    0           0           0           0           1           0           0           0           1  
+ TOTAL                            0           0           0           0           2           0           0           0           2  
+09000001737 NATIONAL BANK OF ABUDHABI                                                                                                
+   CASH WD DDA                    0           1           0           0           0           0           0           0           1  
+ TOTAL                            0           1           0           0           0           0           0           0           1  
+09000001972 FIS-CAP ONE                                                                                                              
+   CASH WD DDA                    0           0           0           0           8           0           0           0           8  
+   CASH WD NAS                    0           0           0           0          10           0           0           0          10  
+   DENIED                         0           0           0           0           4           0           0           0           4  
+ TOTAL                            0           0           0           0          22           0           0           0          22  
+0GRAND TOTALS                                                                                                                        
+   CASH WD SAV                    1          46           0           0          24           0           0           0          71  
+   CASH WD DDA                    1          17           0           0          29           0           0           0          47  
+   CASH ADV CCD                   2          31           0           0           2           0           0           0          35  
+   CASH WD NAS                    7         126           0           0         101           0           0           0         234  
+   BALANCE INQ                    0          23           0           0          16           0           0           0          39  
+   REVERSAL                       0           2           0           0           0           0           0           0           2  
+   DENIED                         2         203           0           0         621           0           0           0         826  
+ TOTAL                           13         448           0           0         793           0           0           0       1,254  
+1SWCHD35                                         M A S T E R C A R D   D E B I T   S W I T C H                      WORK OF  1/25/19 
+                                                         F I L E   P R I N T                                           PAGE     1491 
+                                            I N S T I T U T I O N    D E F I N I T I O N                                             
+-   PROCESSOR   : GOVERNMENT SAVINGS BANK                                                                                            
+    PROCESSOR ID: 9000002352                                                                                                         
+-                ACQ BRAND            ACQ BRAND            ACQ BRAND            ACQ BRAND            ACQ BRAND           ACQ BRAND   
+        INST NO   C P M V P  INST NO   C P M V P  INST NO   C P M V P  INST NO   C P M V P  INST NO   C P M V P  INST NO   C P M V P 
+                  I L C I V            I L C I V            I L C I V            I L C I V            I L C I V            I L C I V 
+ *IDF   976423520 Y   Y                                                                                                              
+1SWCHD320-1                               M A S T E R C A R D    D E B I T    S W I T C H                                            
+                                D A I L Y   P R O C E S S O R   P E R F O R M A N C E  R E P O R T            CALENDAR DATE 01/24/19 
+0                                                      ACQUIRING PROCESSOR                                          PAGE         1   
+0         PROCESSOR   : GOVERNMENT SAVINGS BANK                                                                                      
+          PROCESSOR ID: 9000002352                                                                                                   
+0                                                                                                         % AVAIL        TOTAL       
+            FINANCIAL TRANS       INQUIRE TRANS     STAND-IN  FAILED           TOTAL          PERCENT     WITHOUT       PERCENT      
+   TIME    COUNT   RESP TIME   COUNT    RESP TIME    COUNT    COUNT       COUNT   RESP TIME   STAND-IN    STAND-IN     AVAILABLE     
++  ____    _________________   __________________   ________  _______     _________________   _________   _________   __________     
+                                                                                                                                     
+  00:00         10    .600            1    .000            0        0          11    .545        0.00 %    100.00 %    100.00 %      
+  01:00          7    .428            0    .000            0        0           7    .428        0.00 %    100.00 %    100.00 %      
+  02:00         14    .428            1   1.000            0        0          15    .466        0.00 %    100.00 %    100.00 %      
+  03:00          5    .600            0    .000            0        0           5    .600        0.00 %    100.00 %    100.00 %      
+  04:00         12    .500            0    .000            0        0          12    .500        0.00 %    100.00 %    100.00 %      
+  05:00         11    .727            2    .500            0        0          13    .692        0.00 %    100.00 %    100.00 %      
+  06:00          5    .400            1   1.000            0        0           6    .500        0.00 %    100.00 %    100.00 %      
+  07:00          6    .833            0    .000            0        0           6    .833        0.00 %    100.00 %    100.00 %      
+  08:00          6    .333            0    .000            0        0           6    .333        0.00 %    100.00 %    100.00 %      
+  09:00          6    .666            0    .000            0        0           6    .666        0.00 %    100.00 %    100.00 %      
+  10:00          3    .333            0    .000            0        0           3    .333        0.00 %    100.00 %    100.00 %      
+  11:00          1    .000            0    .000            0        0           1    .000        0.00 %    100.00 %    100.00 %      
+  12:00          1   1.000            0    .000            0        0           1   1.000        0.00 %    100.00 %    100.00 %      
+  13:00          0    .000            0    .000            0        0           0    .000        0.00 %    100.00 %    100.00 %      
+  14:00          1   2.000            0    .000            0        0           1   2.000        0.00 %    100.00 %    100.00 %      
+  15:00          0    .000            0    .000            0        0           0    .000        0.00 %    100.00 %    100.00 %      
+  16:00          1    .000            0    .000            0        0           1    .000        0.00 %    100.00 %    100.00 %      
+  17:00          0    .000            0    .000            0        0           0    .000        0.00 %    100.00 %    100.00 %      
+  18:00          1    .000            1    .000            0        0           2    .000        0.00 %    100.00 %    100.00 %      
+  19:00          2    .500            0    .000            0        0           2    .500        0.00 %    100.00 %    100.00 %      
+  20:00          6    .666            0    .000            0        0           6    .666        0.00 %    100.00 %    100.00 %      
+  21:00          2   1.000            0    .000            0        0           2   1.000        0.00 %    100.00 %    100.00 %      
+  22:00         12    .583            1    .000            0        0          13    .538        0.00 %    100.00 %    100.00 %      
+  23:00          8    .375            2    .500            0        0          10    .400        0.00 %    100.00 %    100.00 %      
+                                                                                                                                     
+  TOTAL        120    .550            9    .444            0        0         129    .543        0.00 %    100.00 %    100.00 %      
+- PEAK MINUTE/TRANSACTION:   2.48/          3                                                                                        
+  PEAK HOUR  /TRANSACTION:   2.00/         15                                                                                        
+  AVAILABILITY % LOW     :   0.00/100.000                                                                                            
+  AVAILABILITY % HIGH    :   0.00/100.000                                                                                            
+1SWCHD353                                    M A S T E R C A R D   D E B I T   S W I T C H                                           
+                                                   R E V E R S A L S   R E P O R T                                   WORK OF 01/25/19
+                                               A C Q U I R I N G   P R O C E S S O R                                   PAGE        1 
+          PROCESSOR   : GOVERNMENT SAVINGS BANK                                                                                      
+          PROCESSOR ID: 9000002352                                                                                                   
+ PAN      6017230007506027220                                                                                                        
+                                                                                                                                     
+ ADV REASON        SWCH SERIAL       NEW TRACE NO  LOCAL DATE  INST ID    PROC CODE REFERENCE NO TRANS CURR   ORG AMT      REV AMT   
+ RESP CODE         ORG SWCH SERIAL   ORG TRACE NO  LOCAL TIME  PROC ID    BRAND     CONV RATE    STLMT CURR   NEW AMT      STLMT AMT 
+ ----------------------------------------------------------------------------------------------------------------------------------- 
+ 450 0018          638040156         020678        01-25       1990111957 011000    647           764          259.17        259.17D 
+ 00 0403645        633566798         020826        005244      9000001195 CI1       23171658      840             .00        259.67D 
+                                                                                                                                     
+ 450 0018          738823093         020679        01-25       1990111957 011000    649           764          259.17        259.17D 
+ 00 0404177        733821773         020828        005505      9000001195 CI1       23171658      840             .00        259.67D 
+                                                                                                                                     
+                                                                                             REPRESENTMENT     PRE-AUTH              
+                      AUTO REVERSALS     ADJUSTMENTS     CHARGEBACKS       REPRESENTMENTS      REVERSALS       NON-FIN         TOTAL 
+  CIRRUS                           2               0               0                    0                0            0            2 
+  TOTAL                            2               0               0                    0                0            0            2 
+
