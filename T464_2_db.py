@@ -1,17 +1,15 @@
 import csv
 import psycopg2
 
+
 def create_table():
 
-    # conn_string = "dbname = 'boalltxn' user = 'boalltxn' password = 'P@ssw0rd' host = 'localhost' port = '5433'"
-    conn_string = "dbname = 'mcacq' user = 'postgres' password = 'P@ssw0rd' host = 'localhost' port = '5432'"
+    conn_string = "dbname = 'MDS' user = 'docker' password = 'docker' host = 'localhost' port = '5432'"
     conn = psycopg2.connect(conn_string)
-
-
     cursor = conn.cursor()
 
     # Create TABLE in POSTGRES
-    cursor.execute("""Create Table MDT464
+    cursor.execute("""Create Table MDT464_13
                    (Message_Type_Indicator varchar(30),
                     Switch_Serial_Number varchar(30),
                     Processor__Acquirer_or_Issuer varchar(30),
@@ -67,10 +65,10 @@ def create_table():
     conn.commit()
     conn.close()
 
+
 def import_2_db():
 
-    # conn_string = "dbname = 'boalltxn' user = 'boalltxn' password = 'P@ssw0rd' host = 'localhost' port = '5433'"
-    conn_string = "dbname = 'mcacq' user = 'postgres' password = 'P@ssw0rd' host = 'localhost' port = '5432'"
+    conn_string = "dbname = 'MDS' user = 'docker' password = 'docker' host = 'localhost' port = '5432'"
     conn = psycopg2.connect(conn_string)
 
     cursor = conn.cursor()
@@ -86,16 +84,15 @@ def import_2_db():
     # print("Data Inserted successfully")
 
     # import csv to database , by COPY
-    with open('MD_csv_190125.csv', 'r') as f:
+    with open('MD_csv_191213.csv', 'r') as f:
         # Notice that we don't need the `csv` module.
         next(f)  # Skip the header row.
-        cursor.copy_from(f, 'MDT464', sep=',')
+        cursor.copy_from(f, 'MDT464_13', sep=',')
     print("Data Inserted successfully")
 
     cursor.close()
     conn.commit()
     conn.close()
-
 
 
 create_table()
